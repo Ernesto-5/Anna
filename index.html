@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anna Diana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>Hey 🙂</h1>
+    <p>
+      I made this because I wanted to say something in a way that felt
+      more… me.
+    </p>
+
+    <p>
+      You make things a little better just by being around.
+    </p>
+
+    <button onclick="showMessage()">Click me</button>
+
+    <p id="secret" class="hidden">
+      I kinda like you. And I’d love to get to know you better ☕
+    </p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("secret").classList.remove("hidden");
+    }
+  </script>
+
+</body>
+</html>
